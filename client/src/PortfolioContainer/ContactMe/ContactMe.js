@@ -10,6 +10,7 @@ import ScrollService from "../../utilities/ScrollService"
 import Animations from "../../utilities/Animations"
 import "./ContactMe.css"
 
+
 export default function ContactMe(props) {
 
     let fadeInScreenHandler = (screen) => {
@@ -162,6 +163,7 @@ export default function ContactMe(props) {
                     </form>
                 </div>
             </div>
+            
         </div>
     )
 }

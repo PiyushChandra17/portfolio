@@ -1,6 +1,6 @@
 import {TOTAL_SCREENS} from "./commonUtils"
 import {Subject} from 'rxjs'
-import { object } from "prop-types";
+import { Object } from "prop-types";
 
 export default class ScrollService{
     static scrollHandler = new ScrollService()
@@ -28,21 +28,21 @@ export default class ScrollService{
         let elementBottom = rec.bottom 
 
 
-        let partiallyVisible = elementTop < window.innerHeight && elementBottom >=0
-        let completelyVisible = elementTop >= 0 && elementBottom <=window.innerHeight
+        let partiallyVisible = elementTop < window.innerHeight && elementBottom >= 0
+        let completelyVisible = elementTop >= 0 && elementBottom <= window.innerHeight
 
         switch(type) {
             case "partial":
                 return partiallyVisible
             case "complete":
                 return completelyVisible
-                default:
-                    return false
+            default:
+                return false
         }
     }
 
     checkCurrentScreenUnderViewport = (event) => {
-        if(!event || object.keys(event).length < 1)
+        if(!event || Object.keys(event).length < 1)
         return
         for (let screen of TOTAL_SCREENS) {
             let screenFromDOM = document.getElementById(screen.screen_name)
@@ -55,7 +55,7 @@ export default class ScrollService{
             if(fullyVisible || partiallyVisible) {
                 if(partiallyVisible && !screen.alreadyRendered){
                     ScrollService.currentScreenFadeIn.next({
-                        fadeInScreen : screen.screen_name
+                        fadeInScreen: screen.screen_name
                     })
                     screen['alreadyRendered'] = true;
                     break

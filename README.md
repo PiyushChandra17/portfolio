@@ -1,2 +1,2 @@
 # Software Developer Portfolio
-Link - https://piyushchandra.herokuapp.com/
+Link: https://piyushchandra.herokuapp.com/

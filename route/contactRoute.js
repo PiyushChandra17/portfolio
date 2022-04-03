@@ -11,8 +11,8 @@ router.post('/contact',(req,res) => {
             service: 'Gmail',
             port: 465,
             auth: {
-                user: process.env.USER,
-                pass: process.env.PASS
+                user: 'piyushblr5@gmail.com',
+                pass: 'Nference~uber~17'
 
             }
         })

@@ -12,7 +12,7 @@ router.post('/contact',(req,res) => {
             port: 465,
             auth: {
                 user: 'piyushblr5@gmail.com',
-                pass: 'Nference~uber~17'
+                pass: process.env.PASS
 
             }
         })

@@ -101,9 +101,6 @@ export default function ContactMe(props) {
                     <a href="https://www.linkedin.com/in/piyushthisside/">
                         <i className="fa fa-linkedin-square"></i>
                     </a>
-                    <a href="https://www.gmail.com/">
-                        <i className="fa fa-envelope-square"></i>
-                    </a>
                     <a href="https://www.facebook.com/piyushthisside/">
                         <i className="fa fa-facebook-square"></i>
                     </a>

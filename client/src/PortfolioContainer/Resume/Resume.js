@@ -116,7 +116,7 @@ const Resume = (props) => {
         <ResumeHeading 
             heading={"Instaqart"}
             subHeading={"Software Engineer"}
-            fromDate={"2021"}
+            fromDate={"Dec 2021"}
             toDate={"present"}
         />
         <div className="experience-description">
@@ -137,6 +137,18 @@ const Resume = (props) => {
             - Main focus is to distribute to mobile first and then simple web just to download the app.
           </span>
           <br />
+          <br />
+          <ResumeHeading 
+            heading={"Inferigence Quotient"}
+            subHeading={"Software Engineer"}
+            fromDate={"April 2022"}
+            toDate={"present"}
+        />
+        <div className="experience-description">
+          <span className="resume-description-text">
+            Worked as a full stack JavaScript developer.
+          </span>
+        </div>
         </div>
       </div>
     </div>,

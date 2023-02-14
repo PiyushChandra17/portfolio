@@ -83,7 +83,7 @@ export default function Profile() {
                             {""}
                             Contact Me{" "}
                         </button>
-                        <a href='piyush.pdf' download='Piyush Chandra.pdf'>
+                        <a href='piyush.pdf' download='piyush.pdf'>
                             <button className="btn highlighted-btn">Get Resume</button>
                         </a>
                     </div>
